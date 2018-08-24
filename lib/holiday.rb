@@ -30,15 +30,7 @@ end
 
 end
 
-holiday_supplies.each do |person, data|
-    data.each do |attribute, value|
-    if attribute == :fourth_of_july
-      value.each do |flavor|
-        puts "#{flavor}"
-      end
-    end
-  end
-end
+
 
 
 

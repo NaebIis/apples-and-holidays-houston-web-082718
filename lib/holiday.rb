@@ -18,24 +18,22 @@ def second_supply_for_fourth_of_july(holiday_hash)
   #   }
   # }
   # return the second element in the 4th of July array
-  holiday_supplies.each do |person, data|
-    data.each do |attribute, value|
-    if attribute == :fourth_of_july
-      value.each do |flavor|
-        puts "#{flavor}"
-      end
+  holiday_supplies.each do |season, day|
+    day.each do |key, string|
+       if key == :fourth_of_july
+         string.each do |event|
+           puts "#{event}"
+         end
+       end
     end
   end
 end
 
-end
 
 
 
 
-
-
-
+ 
 
 
 

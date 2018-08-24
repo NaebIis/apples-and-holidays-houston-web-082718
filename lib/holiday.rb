@@ -29,6 +29,34 @@ def second_supply_for_fourth_of_july(holiday_hash)
   end
 end
 
+holiday_supplies.each do |person, data|
+    data.each do |attribute, value|
+    if attribute == :fourth_of_july
+      value.each do |flavor|
+        puts "#{flavor}"
+      end
+    end
+  end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def add_supply_to_winter_holidays(holiday_hash, supply)
   # holiday_hash is identical to the one above
   # add the second argument, which is a supply, to BOTH the

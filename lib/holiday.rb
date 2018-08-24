@@ -20,7 +20,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
   # return the second element in the 4th of July array
   holiday_supplies.each do |key, value|
     :summer.each do |value, string|
-      value.find("BBQ")
+       if attribute == 
     end
   end
 end

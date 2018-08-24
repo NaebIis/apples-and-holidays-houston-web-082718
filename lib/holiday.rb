@@ -21,6 +21,8 @@ def second_supply_for_fourth_of_july(holiday_hash)
   holiday_supplies.each do |key, value|
     :summer.each do |value, string|
       value.find("BBQ")
+    end
+  end
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
